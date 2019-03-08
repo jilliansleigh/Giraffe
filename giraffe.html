@@ -1,0 +1,56 @@
+noStroke();
+var bodyX = 205;
+var bodyY = 274;
+var bodyW = 113;
+var bodyH = bodyW/2;
+
+draw = function() {
+    background(207, 254, 255);
+    fill(125, 63, 15);
+    rect(bodyX-17, bodyY-190, bodyH+-61, bodyW-61);//antler right
+    rect(bodyX+17, bodyY-190,bodyH+-61, bodyW+-60);//antler left
+    
+    fill(240, 209, 36);
+    ellipse(bodyX, bodyY, bodyW, bodyW+-11); // body
+    ellipse(bodyX, bodyY-147, bodyH+16, bodyW-65); // face
+    rect(bodyX-13, bodyY-44, bodyH-31, bodyW-209); //neck
+    rect(bodyX+-25, bodyY+36, bodyH-48, bodyW+-42); //right leg
+    rect(bodyX+15, bodyY+36, bodyH-48, bodyW+-37); //left leg
+    
+    fill(125, 63, 15);
+    rect(bodyX-13, bodyY+103, bodyH-71, bodyW-101);//right foot
+    rect(bodyX+27,bodyY+103, bodyH-71, bodyW-101);//left foot
+    
+    fill(5, 5, 5);
+    ellipse(bodyX-18, bodyY-152, bodyH+-49, bodyW-103);//right eye
+    ellipse(bodyX+7, bodyY-150, bodyH+-50, bodyW-105);//left eye
+    rect(bodyX+0, bodyY+-137, bodyH-68, bodyW+-114);
+    
+    
+    //spots
+    fill(217, 90, 21);
+    ellipse(bodyX-28, bodyY+-19, bodyH-73, bodyW+-95);
+    ellipse(bodyX+27, bodyY+19, bodyH-80, bodyW+-94);
+    ellipse(bodyX-39, bodyY+14, bodyH-79, bodyW+-86);
+    ellipse(bodyX+40, bodyY+-23, bodyH-68, bodyW+-91);
+    ellipse(bodyX-0, bodyY+-34, bodyH-88, bodyW+-88);
+    ellipse(bodyX+2, bodyY+-88, bodyH-77, bodyW+-98);
+    ellipse(bodyX-5, bodyY+-110, bodyH-44, bodyW+-102);
+    ellipse(bodyX+28, bodyY+-145, bodyH-62, bodyW+-105);
+    
+    
+    fill(214, 104, 8);
+    ellipse(bodyX+30, bodyY+-2, bodyH-73, bodyW+-95);
+    ellipse(bodyX-3, bodyY+1, bodyH-75, bodyW+-88);
+    ellipse(bodyX+-14, bodyY+33, bodyH-92, bodyW+-96);
+    ellipse(bodyX-5, bodyY+-62, bodyH-69, bodyW+-93);
+    ellipse(bodyX+7, bodyY+-122, bodyH-61, bodyW+-104);
+    ellipse(bodyX+17, bodyY+-135, bodyH-66, bodyW+-104);
+    
+    
+    
+    
+    
+    
+    
+};
